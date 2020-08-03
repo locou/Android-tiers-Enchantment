@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Android tiers Enchantment</name>
+	<packageId>supercollidingsuperbutton.androidtiersenchantment</packageId>
+	<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
+   <modDependencies>
+		<li>
+			<displayName>Android tiers</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1386412863</steamWorkshopUrl>
+			<packageId>Atlas.AndroidTiers</packageId>
+		</li>
+	</modDependencies>
+	<author>Super-Colliding Super Button</author>
+	<description>Android tiers
+===Enchantment===
+
+Sprinkle some fairy dust onto some of the gfx
+
+Enchants the following *Things*:
+* Friendly android base
+* Hostile android base
+* Battery gizmo
+* Skill gizmo
+* Skymind gizmo
+* Upload gizmo
+* Overloead gizmo
+
+
+Can be added to or removed from a save game.
+
+	</description>
+</ModMetaData>

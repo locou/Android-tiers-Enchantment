@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android tiers</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/FactionDef[defName = "AndroidRebellionAtlas"]/factionIconPath</xpath>
+			<value>
+				<factionIconPath>Things/Enchant/Icons/AndroidBaseRebellion</factionIconPath>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android tiers</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/FactionDef[defName = "AndroidRebellionAtlas"]/colorSpectrum</xpath>
+			<value>
+				<colorSpectrum>
+					<li>(0.890, 0.290, 0.290)</li>
+				</colorSpectrum>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android tiers</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/FactionDef[defName = "AndroidFriendliesAtlas"]/factionIconPath</xpath>
+			<value>
+				<factionIconPath>Things/Enchant/Icons/AndroidBaseFriendly</factionIconPath>
+			</value>
+		</match>
+	</Operation>
+</Patch>
